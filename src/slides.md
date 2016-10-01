@@ -14,7 +14,7 @@ class: center, middle
 # A **nice** prompt
 
 --
-![](/img/iterm-prompt.png)
+![](img/iterm-prompt.png)
 
 ---
 class: center, middle
@@ -53,7 +53,7 @@ class: center, middle
 
 # Git <span class="fa fa-heart"></span> Colors
 
-![](/img/status-color.png)
+![](img/status-color.png)
 
 ---
 class: center, middle
