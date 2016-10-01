@@ -1,0 +1,56 @@
+body {
+  font-family: 'Open Sans', Arial, sans-serif;
+}
+
+h1, h2, h3 {
+  font-family: 'Playfair Display', Arial;
+  font-weight: normal;
+}
+
+.main-title h1 {
+  font-size: 4em;
+  border-top: 2px solid #ffffff;
+  border-bottom: 2px solid #ffffff;
+  margin: 0;
+  padding: 1em;
+}
+
+.code-smaller code {
+  font-size: 0.6em;
+}
+
+.remark-code,
+.remark-inline-code {
+  font-family: 'Ubuntu Mono', monospace;
+}
+
+.remark-slide-content {
+  background-color: #465a64;
+  color: #ffffff;
+}
+
+.remark-slide-content.thanks {
+  background-color: #6b6eff;
+}
+
+.remark-slide-content ul,
+.remark-slide-content p {
+  font-size: 2.4em;
+}
+
+.remark-slide-content .text-smaller h1 {
+  font-size: 2.2em !important;
+}
+
+.remark-slide-content .text-smaller p {
+  font-size: 1.9em !important;
+}
+
+.remark-slide-content ul {
+  margin-top: 1em;
+  margin-bottom: 2em;
+}
+
+.remark-slide-content img {
+  width: 100%;
+}

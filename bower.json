@@ -1,0 +1,22 @@
+{
+  "name": "git-tips-and-taps",
+  "homepage": "https://github.com/trumbitta/git-tips-and-taps",
+  "authors": [
+    "William Ghelfi <trumbitta@gmail.com>"
+  ],
+  "description": "Some Git tips I usually like to share with everyone",
+  "main": "index.html",
+  "license": "MIT",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "remark": "^0.14.0",
+    "font-awesome": "^4.6.3"
+  }
+}
