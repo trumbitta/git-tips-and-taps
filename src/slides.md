@@ -168,6 +168,37 @@ Let a front-end developer review & merge
 ]
 
 ---
+class: center, middle
+
+# <span class="fa fa-hand-o-up"></span> Speaking of which...
+
+---
+class: middle
+
+.center[
+# <span class="fa fa-hand-spock-o"></span> Merge smart
+]
+
+```bash
+git checkout <current_development_branch>
+
+# --no-ff: never perform a fast-forward
+# --log: add commit messages to the merge commit
+git merge --no-ff --log <topic_branch>
+
+# If want to be extra-careful, add
+# --no-commit: perform a dry-run merge
+git merge --no-ff --log --no-commit <topic_branch>
+
+# WARNING: This will leave the repo with a half-done merge.
+#          Carefully look at what `git status` says, and do it.
+#
+# Example: All conflicts fixed but you are still merging.
+#          (use "git commit" to conclude merge)
+git commit
+```
+
+---
 class: code-smaller
 
 # Resources
